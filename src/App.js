@@ -4,7 +4,7 @@ import Menu from "./components/Menu/Menu";
 import About from "./components/About/About";
 
 function Main(props) {
-  return <Main>{props.children}</Main>;
+  return <main>{props.children}</main>;
 }
 
 function App() {

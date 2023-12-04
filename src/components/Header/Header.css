@@ -1,0 +1,24 @@
+.header {
+  max-width: 1240px;
+  margin: 70px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-inline: 1rem;
+}
+
+.header::after {
+  position: absolute;
+  width: 100%;
+  content: "";
+  background: linear-gradient(180deg, rgba(20, 22, 35, 0) 9.32%, #141623 98.98%),
+    url(/public/img/f361e84299f7f866a58c835accf3fa0f.jpg),
+    lightgray 0px -144.036px / 100% 123.227% no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: 0 -200px;
+  background-repeat: no-repeat;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,13 @@
+.button-red {
+  color: #fff;
+  font-family: "Helvetica";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0.625rem 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background: #fb4e4e;
+  cursor: pointer;
+}
